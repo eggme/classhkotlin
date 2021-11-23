@@ -1,0 +1,108 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+body, body *{font-family: "Noto Sans KR";}
+
+body, html {width: 100%; height: 100%; margin: 0 auto; overflow-y: hidden;}
+.main_wrap{width: 100%; height: 100%; overflow-y: hidden;}
+.flex_container{display: flex; height: 100%; flex-direction: row-reverse;}
+.study_wrap{display: flex;}
+.checked{background-color: #e9ecef; color : #212529 !important;}
+.study_menu{display: flex; list-style: none; padding: 0; margin: 0; width: 100%; flex-direction: column; }
+.study_menu li{ font-size: 28px; color: #868E96; display: flex; align-self: center; width: 100%; padding: 16px; justify-content: center; cursor: pointer;}
+.study_menu li:hover{color : #212529 !important;}
+.curriculum_wrap{display: flex; height: 100%; flex-direction: column; width: 410px; margin-right: 70px;}
+.study_box_wrap{display: flex; position: absolute; right: 0; top: 0; z-index: 99; min-width: 70px !important; height: 100%; background-color: #f8f9fA; border-left: 1px solid #e8e8e8;}
+#video_wrap{width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
+.top_bar, .video_bg, .bottom_menu{flex-grow: 1;}
+.top_bar{width: 100%; background-color: #171717; min-height: 52px; max-height: 52px; display: flex; flex-direction: row; }
+.clip_board, .dashboard {color: white; align-self: center; justify-content: flex-start; display: inline-flex; margin-left: 5px;}
+.dashboard{padding-left: 10px; padding-right: 10px; white-space: nowrap; cursor: pointer;}
+.course_dashboard{padding: 12px; color: white; background-color: #212529; display: flex; align-items: center;}
+.course_title{ width : 100%; display: flex; color: white; align-items: center; padding: 8px; flex-direction: row; justify-content: space-between;}
+.course_title_value{margin-left: 10px; display: inline-flex}
+.review_button{background-color: #1dc078; flex-grow: 0; color: white; padding: 8px 16px; border-radius: 8px; display: inline-flex; align-self: center; cursor: pointer;}
+.review_button span {align-self: center;}
+.text{padding: 16px; display: flex; justify-content: space-between; font-size: 22px; color: #454545; font-weight: 800;}
+.star{padding-top: 2px; padding-right: 5px;}
+#myPlayer{overflow: hidden;}
+.bottom_menu {background-color: hsla(0,0%,9%,.69); width: 100%; min-height: 52px; max-height: 52px; margin: 0 auto; display: flex; justify-content: center;}
+.button_wrap{display: flex; justify-content: center; align-content: center; width: 500px; color: white;}
+.button_wrap div{align-self: center; flex-grow: 1;}
+.video_bg{background-color: #171717; overflow-y: scroll; display: flex; flex-direction: column; height: 100%; justify-content: center;}
+.min_height{height: calc(100vh - 100px) !important; position: relative;}
+.instructorMemo_wrap{width: 100%; background-color: #fff; color: #343A40;}
+.course_progress{ width: 100%; background-color: #E9ECEF; color : #1dc078; border-radius: 5px; height: 6px;}
+.course_progress::-webkit-progress-bar{ width: 100%; background-color: #E9ECEF; color : #1dc078; border-radius: 5px;}
+.course_progress::-webkit-progress-value{ background-color  : #1dc078; border-bottom-left-radius: 5px; border-top-left-radius: 5px;}
+.course_progress::-moz-progress-bar{ width: 100%; background-color: #dcdcdc; color : #1dc078; border-radius: 5px;}
+.triangle{width: 0px; height: 0px; border-right: 26px solid none; border-left: 26px solid #212529; border-bottom: 26px solid transparent; border-top: 26px solid transparent;}
+.hover_interaction{display: flex;}
+.close_button{cursor: pointer;}
+.opened{transition: width .2s ease,opacity .2s ease;  opacity : 1;}
+.closed{transition: width .2s ease,opacity .2s ease; width: 0; opacity : 0;}
+.hidden{display: none;}
+.video_ended{width: 100%; height: 100%; display: flex; position: absolute; justify-content: center; background-color: rgba(0,0,0,.88); z-index: 5; top: 0; left: 0; justify-content: center;}
+.course_ended_alert{display: flex; flex-direction: column; padding: 24px; border-radius: 12px; background-color: #212529; width: 100%; max-width: 410px; color: white; height: 166px; align-self: center;}
+.next_button_template{border-radius: 4px; padding: 8px 12px; margin-left: 8px;font-size: 15px; font-weight: 500; cursor: pointer;}
+.replay_and_next{display: flex; justify-content: flex-end;}
+.course_next_title{font-size: 12px;}
+.course_next_name{font-weight: 700; margin-bottom: 32px; font-size: 16px;}
+.replay{background-color: #343a40; color: white;}
+.next{background-color: white; color: #343A40;}
+/* 수업 커리큘럼 시작 */
+.active{background-color: #e5f5f7 !important; border-left: 6px solid #459aa1 !important;}
+.active_lock{background-color: #f1f3f5 !important; border-left: 6px solid #adb5bd !important;}
+.active .class_content .class_title{font-weight: 600 !important;}
+.active .class_content .class_time *{color: #459AA1 !important;}
+.section_title{background-color: #f1f3f5; color: #212529; font-weight: 500; padding: 12px 20px; border-top: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6;}
+.class_content{color: #212529; margin-bottom: 4px; font-size: 16px;}
+.class_icon{font-size: 28px; color : #CED4DA;}
+.class_box{display: flex; align-items: center; padding: 8px 20px; margin-top: 5px; cursor: pointer;}
+.class_box:hover{background-color: #f8f9fa;}
+.play_icon{margin-right: 12px;}
+.played{font-size: 28px; color : #459AA1 !important;}
+.title{font-weight: 700; font-size: 18px; color : #333333;}
+.course_real_title{margin-bottom: 12px;}
+.course_option{margin-bottom: 12px;}
+.class_time{font-size: 14px; color : #868e96;}
+.course_title_wrap{padding: 12px;}
+.course_option{font-size: 15px; color : #495057;}
+.class_title{cursor: pointer;}
+.course_content_wrap{overflow: auto;}
+.time_icon{margin-right: 5px;}
+/* 수업 커리큘럼 끝 */
+/* 강의 권한 */
+.unauthorized_wrap{max-width: 410px; background-color: #ffffff00;  text-align: center; margin: 48px 24px; width: 100%; display: flex; align-self: center; justify-content: center;}
+.price{font-size: 24px;font-weight: 600; margin-bottom: 16px; color: white;}
+.h1_area h1{font-size: 36px; font-weight: 700; margin-bottom: 8px; color: white;}
+.span_area{font-size: 16px; margin-bottom: 8px; color: white;}
+.payment_area{display: flex; flex-direction: column; justify-content: center;}
+.payment_area div{display: flex; padding: 9px 0; justify-content: center; border-radius: 4px; width: 100%; margin: 4px 6px; cursor: pointer; font-weight: 500; font-size: 16px;}
+.do_payment_button{color: #fff; background-color: #1dc078;}
+.add_course_button, .go_course_info_button{color: #343A40; background-color: #fff;}
+/*  완강 모달  */
+.modal_form_wrap{ z-index: 99; display: none; position : fixed; width: 100%; height: 100%; top: 0; left : 0; overflow: auto; background-color: rgba(0,0,0,0.4);  padding-top: 250px;}
+.modal_content{display: flex; width: 460px; height: 400px; background-color: #fefefe;margin: 5px auto; border: 1px solid #888; border-radius: 5px;}
+.clear_course_container{padding: 32px 48px;}
+.add_cart_content{width: 400px !important; height: 320px !important;}
+.modal_container{width: 100%; margin : 0 auto; display: flex; flex-direction: column; }
+.modal_buttons_flex_template{display: flex; justify-content: center;  padding: 18px 24px;}
+.clear_course_icon{display: flex; justify-content: center; color: #1dc078; font-size: 56px; margin-right: 24px; margin-top: 24px; }
+.clear_course_title{font-size: 24px; font-weight: 500; word-break: keep-all; margin-bottom: 24px; text-align: center; margin-top: 24px;}
+.clear_course_desc{width: 288px; font-size: 16px; margin: 0 auto; display: flex; justify-content: center; text-align: center; margin-bottom: 24px; word-break: keep-all;}
+.modal_submit_button_template{padding: 12px 24px; font-size: 16px; color: white; cursor: pointer; background-color: #1dc078; margin-left: 4px; border-radius: 4px;}
+.modal_cancel_button_template{padding: 12px 24px; font-size: 16px; color: #343A40; cursor: pointer; background-color: #f1f3f5; margin-right: 4px; border-radius: 4px;}
+.modal_submit_button_template{padding: 12px 24px; font-size: 16px; color: white; cursor: pointer; background-color: #1dc078; margin-left: 4px; border-radius: 4px;}
+.add_cart_exit{padding-bottom: 20px; display: flex; justify-content: center; align-items: center; margin-top: 48px;}
+.add_cart_exit *{font-size: 48px; color: #1dc078;}
+.add_cart_title{display: flex; justify-content: center; text-align: center; font-size: 22px; font-weight: 500; padding-bottom: 6px;}
+.add_cart_desc{display: flex; justify-content: center; text-align: center; margin-bottom: 24px;}
+
+
+.animate{-webkit-animation: animatezoom 0.6s; animation: animatezoom 0.6s;}
+@-webkit-keyframes animatezoom { from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)} }
+@keyframes animatezoom { from {transform: scale(0)} to {transform: scale(1)} }

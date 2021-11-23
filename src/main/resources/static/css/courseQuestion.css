@@ -1,0 +1,55 @@
+.main_section{display: flex;justify-content: space-between;width: 1200px;height: 100%;margin: 0 auto;}
+.real_course_content{width: 70%;display: flex;flex-direction: column;}
+.box_wrap{display: flex;position: sticky;top : 120px;height: 360px;}
+.course_price{text-align: left; font-size: 28px; color : black; font-weight: bold; margin-bottom: 20px;}
+.course_status{color: #343a40;font-size: 24px;font-weight: 700;margin-bottom: 12px;}
+.mini_box{display: flex; justify-content: center;}
+.mini_box_content{padding: 10px 18px; font-size: 14px; color: #495057; font-weight: 500; cursor: pointer;}
+.add_box{border-right : 1px solid #f1f3f5; }
+.learning_box {background-color: #00C471; font-size: 16px; font-weight: bold; color : white; text-align: center; border-radius: 1px; width: 270px;height: 48px; line-height: 48px; margin-bottom: 10px; cursor: pointer; border-radius: 5px;}
+.learning_box:hover{background-color: #00a65f;}
+.course_subtext{width: 100%; height: 100%; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; color: #868e96; font-size: 12px; text-align: left; padding: 16px 24px; background-color: #f8f9fa;}
+.course_subtext * {font-size: 12px;}
+.course_box{display: flex; flex-direction: column; height: 360px; z-index: 10; background-color: white; border: #E9ECEF 1px solid; border-radius: 20px;  width: 320px;}
+.course_box_warp{display: flex; flex-direction: column; padding: 24px; border-bottom: 1px solid #f1f3f5;}
+.top_margin{margin-top: 5px;}
+.review_tags{display: flex;}
+.review_hash_tag{display: flex; align-self: center; padding: 6px; margin: 3px; border-radius: 3px; background-color: #f1f3f5; color: #616568; white-space: nowrap; font-size: 13px; }
+
+.question_input{ border: 1px solid #dee2e6; outline: none; padding: 4px 12px; width: 100%; height: 40px; border-radius: 4px;}
+.search_wrap{display: flex; justify-content: space-between; padding: 24px 0;}
+.button_area{display: flex; color: white; padding: 4px 12px; font-size: 14px; background-color: #3e4042; border-radius: 4px; white-space: nowrap; align-items: center; flex-grow: 1; cursor: pointer;}
+.button_icon{margin-right: 8px;}
+.input_area{display: flex; position: relative; width: 100%; padding-right: 18px;}
+.search_icon_wrap{position: absolute; right: 32px; font-size: 16px; bottom: 10px; color: #bcbdbf; cursor: pointer;}
+.question_area{display: flex; flex-direction: column; padding-bottom: 24px; border-top: 1px solid #DEE2E6;}
+.question_content {padding:24px 12px 24px 24px; border-bottom: 1px solid #DEE2E6; display: flex; justify-content: space-between; cursor: pointer;}
+.question_content:hover{background-color: #f8f9fa;}
+
+.question_toolbar{display: flex; flex-direction: column; justify-content: center; flex-grow : 1;}
+.circle_answer_area{display: flex;  align-self: center;  flex-direction: column; justify-content: center; align-items: center; width: 66px; height: 66px; border: 1px solid #DEE2E6; border-radius: 70%;}
+.answer_count{font-size: 18px; font-weight: 500; color: #1b1c1d;}
+.answer_title{font-size: 12px; font-weight: 500; color: #616568;}
+.question_data_area{display: flex; flex-direction: column; justify-content: space-between; flex: 5 1 640px;}
+.question_member_wrap{display: flex; font-size: 14px;font-weight: 400;color: #858a8d;}
+.review_title{font-size: 18px; font-weight: 700; color: #1b1c1d; overflow: hidden; margin-bottom: 10px;}
+.review_content{font-size: 15px; max-height: 44px; color: #616568; overflow: hidden; margin-bottom: 18px;}
+.like_icon{margin-right: 8px;}
+.like_area{padding-top: 8px; font-size: 14px; font-weight: 500; color: #495057; display: flex; justify-content: center;}
+
+.tag_wrap_template{display: flex; padding: 8px; height: 50px; width: 100%; border: 1px solid #DEE2E6; border-radius: 3px;}
+.hashtag{font-size: 16px; color: #666666; align-self: center; margin-right: 4px;}
+.hashtag_value{align-self: center; margin-right: 4px;}
+.question_tag{border: none; outline: none; font-size: 16px; align-self: center;}
+.tag_description{font-size: 12px; color: #868e96; margin-top: 6px;}
+
+.question_cancel{color: #343A40; background-color: white;}
+.question_submit{color: white; background-color: #1dc078;}
+.tox-mbtn__select-label{color: #343A40 !important;}
+
+/* 해시태그 */
+.hashtag_value{display: flex;}
+.hash_tag_template{display: flex; align-self: center; padding: 6px; margin: 3px; border-radius: 3px; background-color: #f1f3f5; color: #616568; white-space: nowrap; font-size: 13px; cursor: pointer;}
+.tag_value{margin-right: 4px;}
+
+.empty_list{padding-top: 24px; font-size: 28px; display: flex; justify-content: center;}

@@ -1,0 +1,303 @@
+body, body *{font-family: "Noto Sans KR";}
+
+.course_info_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 100%;
+    padding-top: 16px;
+    margin: 0 auto;
+}
+.real_course_content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.course_form{
+    width: 100%;
+    height: auto;
+    min-height: 140px;
+    display: flex;
+    border: 1px solid #f1f3f5;
+    border-radius: 20px;
+    margin: 8px 0;
+    padding: 32px 24px 32px 16px;
+}
+.course_gray_form{
+    width: 100%;
+    height: auto;
+    padding: 12px 32px;
+    background-color: #f5f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.course_from_menu{
+    text-align: center;
+    align-self: center;
+    flex-basis : 130px;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.data_area{display: flex; flex-direction: column; align-items: center; padding-left: 24px; }
+.flex_column{display: flex; width: 100%;}
+.data_0{display: flex; font-size: 16px;}
+.icon{color: #1dc078;}
+.course_tip{display: flex;  flex-direction: column; width: 100%; padding-top: 28px; padding-bottom: 28px; font-size: 22px; font-weight: 400; border-bottom: 1px solid #f1f3f5;}
+.text_highlight{font-weight: 600; padding-bottom: 16px;}
+.data_text, .icon{font-size: 16px;}
+.instructor_introduce{display: flex; justify-content: space-between; align-items: center;}
+.instructor_title{display: flex; flex-direction: column; font-size: 22px;}
+.instructor_title * {font-size: 22px;}
+.hello_title{font-weight: 400;}
+.instructor_name_wrap{font-weight: 600;}
+.underline_course{text-decoration: underline; margin-right: 6px; cursor: pointer;}
+.course_instructor_info{display: flex; flex-direction: column;}
+.instructor_value{width : 62px; height : 62px; border-radius: 70%; overflow: hidden; display: flex; border: 1px solid #f1f3f5; margin-right: 12px;}
+.instructor_img{width: 100%; height: 100%; object-fit: cover;}
+.introduce_value{margin-top: 8px;}
+.instructor_selfIntroduce{margin: 12px 0 32px 0;}
+.curriculum_area{display: flex; flex-direction : column; margin-bottom: 14px;}
+.curriculum_text{color: #343a40; font-size: 22px; font-weight: 700; margin-right: 8px; align-self: center;}
+.curriculum_value{font-size: 16px; color: #adb5bd; font-weight: 500; align-self: center;}
+.curriculum_toolbar{display: flex; justify-content: space-between; padding-top: 8px;}
+.curriculum_text_desc{font-size: 15px; font-weight: 400; margin-right: 12px; color: #495057; align-self: center;}
+.curriculum_close_button{border: 1px solid #868e96; border-radius: 5px; padding: 8px 14px; align-self: center; cursor: pointer;}
+.row_wrap{display: flex; margin-bottom: 8px;}
+.course_created{display: flex; justify-content: center; margin-top: 8px; background-color: #f8f9fa; border-radius: 4px; padding: 14px 0; }
+.createdAndModified{color: #868e96; font-size: 14px; display: flex;}
+.createdAndModified span{font-size: 14px;}
+.course_review_wrap{padding: 48px 8px 28px 8px;}
+.review_title{font-size: 22px; font-weight: 700; color: #343a40;}
+.review_sub_title{font-size: 15px; color: #495057; font-weight: 400;}
+.review_title_wrap{margin-bottom: 16px;}
+.review_form{border-radius: 8px; border: 1px solid #f1f3f5; background-color: #f8f9fa; display: flex; flex-direction: column; justify-content: center;}
+.review_rate{display: flex; flex-direction: column; justify-content: center; padding: 24px 0;}
+.sub_title_area{color: #343a40; font-weight: 400; font-size: 14px; align-self: center;}
+.review_textarea_wrap{display: flex; flex-direction: column; justify-content: center; border : 1px solid #dee2e6; border-radius: 4px; margin: 0px 12px 12px 12px;}
+.review_textarea{width: 100%; height: 100%; max-height: 100px; padding: 13px 12px; font-size: 15px; color: #495057; resize: none; border: none; border-bottom: 1px solid #dee2e6; outline: none;}
+.submit_area{display: flex; justify-content: flex-end; background-color: #fff;}
+.review_submit{background-color: #1dc078; color: white; padding: 12px; cursor: pointer; }
+.rate_area{display: flex; justify-content: center;}
+.reviewer_star_rate_ul{list-style: none; display: flex; margin: 0px 0px 8px 0; padding: 0; }
+.reviewer_star_rate_ul li{font-size: 14px; color: #DEE2E6;}
+.star_rate_ul{list-style: none; display: flex; margin: 0px 0px 12px 0; padding: 0; }
+.star_rate_ul li{color: #DEE2E6; font-size: 24px; cursor: pointer;}
+.star_fill{color: #ffc807 !important;}
+.course_preview{color: #1dc078; border: 1px solid  #1dc078; border-radius: 4px; padding: 2px 4px; cursor: pointer; font-size: 13px;}
+.review_list_filter{display: flex; border-bottom: 1px solid #343A40;}
+.review_list_filter_title{ font-weight: 700; }
+.review_list_template{padding: 4px 8px; font-size: 14px; color: #495057; align-items : center; display: flex; justify-content: center; cursor: pointer;}
+.review_list_template * {font-size: 14px;}
+.review_list_filter_divider{margin: 0 10px 0 12px; width: 1px; height: 12px; background-color: #DEE2E6; align-self: center;}
+.highlight_active{color: #1dc078;}
+.review_list_menu_title{align-self: center;}
+.separator{font-weight: 700; font-size: 24px; margin-right: 8px;}
+.review_list_form{display: flex; flex-direction: column; justify-content: center;}
+.review_list_content{padding: 24px 0; display: flex; flex-direction: column; justify-content: center;}
+.noReview{display: flex; flex-grow: 1; justify-content:  center; text-align: center; padding: 18px 0;}
+.reviewer_content{display: flex; margin-bottom: 8px;}
+.image_wrapper{width: 40px; height: 40px; overflow: hidden; border-radius: 70%; display: flex; justify-content: center;}
+.reviewer_profile_img{width: 100%; height: 100%; object-fit: cover; align-self: center;}
+.reviewer_content_flex_wrap{display: flex; justify-content: space-between; flex-grow: 1; z-index: 1; }
+.reviewer_content_value{display: flex; flex-direction: column; margin-left: 12px; flex-grow: 1;}
+.reviewer_form{display: flex;  flex-direction: column; z-index: 60; margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #f1f3f5;}
+.reviewer_created_date{display: flex; justify-content: space-between;}
+.created_date_wrap{display: flex; font-size: 12px; font-weight: 500; color: #959B9D;}
+.reviewer_comment{margin-bottom: 8px;}
+.review_recommendation{cursor: pointer;}
+.reviewer_like_wrap{display: flex;}
+.like_icon{color: #ff7867;}
+.reviewer_toolbox{ display: flex; justify-content: center; margin-right: 8px; align-content: center; position: relative;}
+.toolbox_icon{cursor: pointer; color: #959B9D; font-size: 14px; font-weight: 200; display: flex; justify-content: center; align-self: center;}
+.toolbox{z-index: 61; position: absolute; bottom: -70px; display: flex; flex-direction: column; justify-content: center; width: 100px; height: 80px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; align-items: center; flex-grow: 1;}
+.edit_button_wrap, .delete_button_wrap{display: flex; justify-content: center; flex-grow: 1; align-items: center; cursor: pointer;}
+/* 총 수강평 별점 */
+.rate_score_view_wrap{margin-bottom: 12px;}
+.star_value_wrap{display: flex; justify-content: center; align-content: center;}
+.star_rate{position: relative; width: 126px; height: 20px;}
+.star_background{position: absolute; width: 100%; color: #DEE2E6;}
+.star_value{position: absolute; width: calc((0/5)*100%); color: #ffc807; white-space: nowrap; overflow: hidden;}
+.rate_value_wrap{border: 1px solid #DEE2E6; border-radius: 2px; padding: 32px 12px; display: flex; flex-direction: column; justify-content: center; flex-grow: 1; margin-right: 6px;}
+.rate_graph_wrap{display: flex; justify-content: center; flex-grow: 4; border: 1px solid #DEE2E6; border-radius: 2px; padding: 32px 24px; margin-left: 6px;}
+.rate_wrap{display: flex; flex-direction: column; justify-content: center; flex-grow: 1;}
+.star_big_size{font-size: 18px;}
+.rate_score_flex_wrap{display: flex; justify-content: center;}
+.avg_rate_value{display: flex; justify-content: center; align-content: center; font-size: 32px; font-weight: 600;}
+.review_count{display: flex; justify-content: center;}
+.rate_value_container{height: 10px; display: flex; flex-grow: 1; margin-left: 12px;}
+.rate_title_container{font-weight: 500; font-size: 14px;}
+.rate_container{display: flex; align-items: center;}
+.rate_relative_wrap{position: relative; width: 100%;}
+.rate_background{width: 100%; height: 100%; background-color: #f1f3f5; border-radius: 4px; position: absolute;}
+.rate_value{width: 20%; height: 100%; background-color: #ffc807; border-radius: 4px; position: absolute; overflow: hidden;}
+
+
+.modal_form_wrap{ z-index: 99; display: none; position : fixed; width: 100%; height: 100%; top: 0; left : 0; overflow: auto; background-color: rgba(0,0,0,0.4);  padding-top: 250px;}
+.modal_content{display: flex; width: 520px; height: 440px; background-color: #fefefe;margin: 5px auto; border: 1px solid #888; border-radius: 5px;}
+.add_cart_content{width: 400px !important; height: 320px !important;}
+.modal_container{width: 100%; margin : 0 auto; display: flex; flex-direction: column; }
+.modal_buttons_flex_template{display: flex; justify-content: center;  padding: 18px 24px;}
+.edit_review_submit{margin-right: 12px;}
+.edit_review_exit{display: flex; justify-content: flex-end; margin-right: 24px; margin-top: 24px; }
+.exit{cursor: pointer; font-size: 18px;}
+.edit_review_title{font-size: 22px; word-break: keep-all; margin-bottom: 24px; text-align: center; margin-top: 24px;}
+.sizeUp li{font-size: 40px !important;}
+.edit_review_reviewContent{padding: 12px 36px;}
+.reviewContent{padding: 12px; font-size: 16px; width: 100%; height: 128px; background-color: #f8f9fa; outline: none; border: 1px solid #dee2e6; border-radius: 4px; resize: none;}
+.modal_cancel_button_template{padding: 12px 24px; font-size: 16px; color: #343A40; cursor: pointer; background-color: #f1f3f5; margin-right: 4px; border-radius: 4px;}
+.modal_submit_button_template{padding: 12px 24px; font-size: 16px; color: white; cursor: pointer; background-color: #1dc078; margin-left: 4px; border-radius: 4px;}
+.add_cart_exit{padding-bottom: 20px; display: flex; justify-content: center; align-items: center; margin-top: 48px;}
+.add_cart_exit *{font-size: 48px; color: #1dc078;}
+.add_cart_title{display: flex; justify-content: center; text-align: center; font-size: 22px; font-weight: 500; padding-bottom: 6px;}
+.add_cart_desc{display: flex; justify-content: center; text-align: center; margin-bottom: 24px;}
+
+.animate{-webkit-animation: animatezoom 0.6s; animation: animatezoom 0.6s;}
+@-webkit-keyframes animatezoom { from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)} }
+@keyframes animatezoom { from {transform: scale(0)} to {transform: scale(1)} }
+
+/* new */
+
+
+/*  old  */
+.course_detail_description{margin-bottom: 50px;}
+.flex_content{display: flex; flex-direction: row; justify-content: flex-start; min-width: 73% !important;}
+.list_box{font-size: 14px; color : #343A40; text-align: center; border : 1px solid #DEE2E6; width: 270px;height: 48px; line-height: 48px; text-align: center; cursor: pointer; margin-bottom: 20px; box-shadow:0 2px 3px 0 rgba(0,0,0,.02), inset 0 0 0 1px #dee2e6}
+.list_box:hover{box-shadow: inset 0 0 0 1px #adb5bd;}
+
+.top_margin{margin-top: 5px;}
+
+/* 컨텐츠 부분 */
+.course_content_section{width : 1160px; margin: 0 auto;}
+.course_content_wrap{width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; padding:0px;}
+
+.no_style{ list-style: none; padding-left: 12px; margin: 5px 0;}
+.red_text{color : red;}
+.introduce{display: flex; flex-direction: row; justify-content: flex-start;}
+.course_active{display: flex !important;}
+.course_info{display: none; flex-direction: column;}
+.course_question{display: none; flex-direction: column;}
+.course_board{display: none; flex-direction: column;}
+.course_newly{display: none; flex-direction: column;}
+.course_management{display: none; flex-direction: column;}
+.long_description{margin: 24px 0;}
+.course_short_desc{font-size: 17px;}
+.tag_item{font-size: 17px;}
+
+/* 질문답변 시작*/
+.question_btn_wrap{display: flex; justify-content: flex-end; margin-top: 20px; margin-bottom: 8px;}
+.question_button{color : white; background-color: #FF6D5A; font-weight: 600; font-size: 16px; padding: 8px 12px; border-radius: 4px; cursor: pointer;}
+.question_data{max-width:850px; border: 1px solid #e9ecef; box-shadow: 0 2px 3px rgba(0,10,18,.1), 0 0 0 1px rgba(0,10,18,.1); padding: 20px; margin: 16px 0;}
+.question_flex_wrap{display: flex;}
+.question_content_wrap{display: flex; flex-direction: column; margin-left: 18px;}
+.question_user_content{display: flex;}
+.question_user_img{display: flex;}
+.question_img_content{width: 48px; height: 48px;}
+.question_title{font-size: 16px; font-weight: 600;}
+.question_user_name{font-size: 12px; font-weight: 500; align-self: center; margin-left: 8px;}
+.question_content{font-size: 16px; overflow: hidden;}
+.like{color : #ff7867;}
+.comment{color: #333333;}
+.question_reaction_wrap{display: flex; justify-content: flex-end;}
+.comment, .like{display: flex; cursor: pointer; padding-left: 8px;}
+.like_reaction_logo i{font-size: 18px;}
+.comment_reaction_logo i{font-size: 18px;}
+.like_reaction_content, .comment_reaction_content{padding-left: 4px;}
+/* 모달 */
+.add_question_title_input{padding-top: 30px;}
+.gray_input{width: 100%; height: 40px; border: 0; margin-bottom: 12px; border-radius: 3px; padding: 0 12px;box-shadow: none; font-size: 16px; color : #595959; background-color: #f6f6f6;}
+.gray_input:focus{outline: none;}
+#add_question_form{display: none; position : fixed; width: 100%; height: 100%; top: 0; left : 0; overflow: auto; background-color: rgba(0,0,0,0.4); padding-top: 200px; z-index: 99;}
+.add_question_content{width: 920px; height: 720px; background-color: #fefefe;margin: 5px auto; border: 1px solid #888; border-radius: 5px;}
+.add_question_container{width: 94%; margin : 0 auto;}
+.add_question_buttons{margin-top: 18px; display: flex; }
+.add_question_buttons div{}
+.add_class_description_container h2{font-size : 18px; margin-top: 18px;}
+.add_class_description_container p{font-size: 16px;}
+.tox-mbtn__select-label{color : black !important; background-color: #000;}
+/* 질문답변 끝 */
+
+/* 교육과정 css 시작*/
+.section_wrap{display: flex; flex-direction: column; margin: 5px 0;}
+.curriculum_content{display: flex; flex-direction: column;}
+.curriculum_content{color : #595959;}
+.section_head {display: flex; justify-content: space-between; align-content: center; background-color: #f5f5f5; padding: 12px; border-radius: 5px; cursor: pointer;}
+.section_class_box{display: flex; justify-content: space-between; align-content: center; border-bottom: 1px solid #eee; padding: 14px 20px;}
+.section_head{font-size: 16px;}
+.section_title{font-weight: 800; width: 75%; display: flex; flex-grow: 1; align-items: center;}
+.right_margin{margin-right: 8px;}
+.horizontal_margin{margin: 0 5px;}
+.section_class_length_box{display: flex; flex-grow: 1; justify-content: center; align-items: center;}
+.section_box{display: flex; flex-grow: 1; justify-content: space-between; align-items: center;}
+.button_plus, .button_minus {display: flex; align-self: center;}
+.button_hide{display: none;}
+.class_title{display: flex; width: 75%; flex-grow: 1; align-items: center;}
+.class_box{display: flex; flex-grow: 1; justify-content: flex-end; align-items: center;}
+.hide_class{max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out;}
+/* 교육과정 css 끝 */
+
+/* 수강신청 시작 */
+.cart_icon{font-size: 50px; color: #1dc078; margin-bottom: 20px;}
+#course_cart_form{display: none; position : fixed; width: 100%; height: 100%; top: 0; left : 0; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); padding-top: 200px; z-index: 30;}
+.course_cart_content{width: 416px; height: 320px; background-color: #fefefe;margin: 5px auto; border: 1px solid #888; border-radius: 5px;}
+.course_cart_container{width: 100%; height: 100%; padding: 38px 64px; display: flex; flex-direction: column; align-content: space-between;}
+.cart_content{display: flex; flex-direction: column; align-items: center;}
+.cart_buttons{margin-top: 30px; display: flex; justify-content: center;}
+.cart_message_title{font-size: 22px; font-weight: 500; word-break:keep-all; text-align: center; margin-bottom: 6px}
+.cart_message_description{text-align: center; font-size: 16px;}
+.cancel_button{padding: 8px 24px; background: #F5F5F5; cursor: pointer; border-radius: 3px;}
+.submit_button{padding: 8px 24px; margin-right: 10px; color: #fff; background: #1dc078; cursor: pointer; border-radius: 3px;}
+/* 수강신청 끝*/
+/* 결제하기 시작 */
+.course_payment_form{display: none;}
+.payment_box:hover{background-color: #00a65f;}
+#course_cart_form{display: none; position : fixed; width: 100%; height: 100%; top: 0; left : 0; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); padding-top: 200px; z-index: 30;}
+.course_cart_content{width: 416px; height: 320px; background-color: #fefefe;margin: 5px auto; border: 1px solid #888; border-radius: 5px;}
+.course_cart_container{width: 100%; height: 100%; padding: 38px 64px; display: flex; flex-direction: column; align-content: space-between;}
+.cart_content{display: flex; flex-direction: column; align-items: center;}
+/* 결제하기 끝 */
+
+/* 해시태그 설정 모달 */
+.add_hashTag_form_wrap{padding-top: 20%;}
+.hashTag_success_form_wrap{padding-top: 24%;}
+.hashTag_success_form_div{width: 480px; height: 240px;}
+.hashTag_success_icon{display: flex; justify-content: center; margin-bottom: 18px;}
+.hashTag_success_title{margin-bottom: 12px; font-size: 24px; color: #000A12; display: flex; justify-content: center;}
+.hashTag_success_icon *{color: #1dc078; font-size: 48px;}
+.add_hashTag_form_div{width: 560px; height: 320px;}
+.add_hashTag_menu{font-size: 24px; font-weight: 600; color: #1dc078; margin-bottom: 12px;}
+.add_hashTag_content{margin-bottom: 12px;}
+.tag_wrap_template{display: flex; padding: 8px; height: 50px; width: 100%; border: 1px solid #DEE2E6; border-radius: 3px;}
+.hashtag{font-size: 16px; color: #666666; align-self: center; margin-right: 4px;}
+.hashtag_value{align-self: center; margin-right: 4px;}
+.add_hashTag_tag{border: none; outline: none; font-size: 16px; align-self: center;}
+.tag_description{font-size: 12px; color: #868e96; margin-top: 6px;}
+.hashtag_value{display: flex;}
+.hash_tag_template{display: flex; align-self: center; padding: 6px; margin: 3px; border-radius: 3px; background-color: #f1f3f5; color: #616568; white-space: nowrap; font-size: 13px; cursor: pointer;}
+.hash_tag_template *{font-size: 13px;}
+.tag_value{margin-right: 4px;}
+
+
+@media (max-width: 1190px) {
+    .content_wrap{width: 100%;}
+    .content_wrap{margin : 0; padding:0;}
+    .flex_content{width: calc(100% - 370px) !important;}
+    .course_ul{width: 100%;}
+}
+/*@media (max-width: 1630px) {*/
+/*    .course_box{right : 222px}*/
+/*}*/
+/*@media (max-width: 1300px) {*/
+/*    .course_box{right : 100px;}*/
+/*}*/
+/*@media (max-width: 1200px) {*/
+/*    .course_box{right : 0px;}*/
+/*    .content_wrap{width: 100%;}*/
+/*}*/
+/*@media (max-width: 1000px) {*/
+/*    .course_box{display: none;}*/
+/*}*/
