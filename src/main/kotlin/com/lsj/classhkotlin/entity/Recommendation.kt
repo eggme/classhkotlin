@@ -1,7 +1,8 @@
 package com.lsj.classhkotlin.entity
 
-data class Recommendation (
+data class Recommendation (var rdno: Int? = null){
 
 
 
-        )
+
+}
